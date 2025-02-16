@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/js/cart.js" defer></script>
+  <script src="/js/thumbnails.js" defer></script>
+  <script src="/js/collection.js" defer></script>
+  <script src="/js/seflere.js" defer></script>
+  <title>Best Gift</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header new--width">
+        <a href="index.html" class="header__logo">
+          <img src="imgs/logo.svg" alt="logo">
+          <span class="logo--text">
+            Best Gift
+          </span>
+        </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">
+                Home
+              </a>
+            </li>
+            <li class="nav--underline">
+              <a href="collections.html">
+                Collections
+              </a>
+            </li>
+            <li>
+              <a href="aboutus.html">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="contactus.html">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+          <div class="header__cart">
+            <img src="imgs/shoppingCart.png" alt="shopping Cart">
+            <span class="cartAdd cart--list"></span>
+          </div>
+          <dialog class="cart__modal">
+            <h2>Total Items:</h2>
+            <div class="cart__value">
+              <p class="cartValue"></p>
+              <span class="cartValueClose cart__value--Close">&times;</span>
+            </div>
+            <button class="cart__closeBtn">&times;</button>
+          </dialog>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="rootCollection" class="new--width"></section>
+
+      <!-- <section class="collections new--width">
+        <h1 class="collec--header">vores kollektioner</h1>
+        <p class="collec--para">
+          Gå på opdagelse i vores forskellige smykkekollektioner, og oplev et univers af muligheder, hvor du kan skabe et look, der fortæller noget om dig.          
+        </p>
+        <div class="collection__cards">
+          <div class="collection__card">
+            <div class="thumbGallery">
+              <img class="thumbGallery__large" src="imgs/watchC1.png" alt="watchC1">
+              <div class="thumbGallery__thumbnails">
+                <img class="thumbGallery__small" src="imgs/watchC1.png" alt="watchC1">
+                <img class="thumbGallery__small" src="imgs/watchC2.jpg" alt="watchC2">
+                <img class="thumbGallery__small" src="imgs/watchC3.jpg" alt="watchC3">
+              </div>
+            </div>
+            <h5>watches  collection</h5>
+            <p>A watch is not only a functional accessory but also a stylish one, complementing your wardrobe and reflecting your personality.</p>
+            <button type="button" class="btn collection__card--btn">shop nu</button>
+          </div>          
+          <div class="collection__card">
+            <div class="thumbGallery">
+              <img class="thumbGallery__large" src="imgs/perfumeC1.jpg" alt="perfumeC1">
+              <div class="thumbGallery__thumbnails">
+                <img class="thumbGallery__small" src="imgs/perfumeC1.jpg" alt="perfumeC1">
+                <img class="thumbGallery__small" src="imgs/perfumec2.webp" alt="perfumec2">
+                <img class="thumbGallery__small" src="imgs/perfumec3.jpg" alt="perfumec3">
+              </div>
+            </div>
+            <h5>perfume collection</h5>
+            <p>It is a fragrance that, in its extrait formulation, shows all its complexity and sweetness, sensuality, and lust, like a magical realm of abundance.</p>
+            <button type="button" class="btn collection__card--btn">shop nu</button>
+          </div>
+          <div class="collection__card">
+            <div class="thumbGallery">
+              <img class="thumbGallery__large" src="imgs/bagcollection.png" alt="bagcollection">
+              <div class="thumbGallery__thumbnails">
+                <img class="thumbGallery__small" src="imgs/bagcollection.png" alt="bagcollection">
+                <img class="thumbGallery__small" src="imgs/bagC2.avif" alt="bagC2">
+                <img class="thumbGallery__small" src="imgs/bagC3.avif" alt="bagC3">
+              </div>
+            </div>
+            <h5>bags  collection</h5>
+            <p>A fibric mesh is included. In the bag there is also leather case. The  bag  can be used both as a handbag with the shop strap and with long strap.</p>
+            <button type="button" class="btn collection__card--btn">shop nu</button>
+          </div>
+          <div class="collection__card collection__card--seFlere">
+            <div class="thumbGallery">
+              <img class="thumbGallery__large" src="imgs/vaseC1.webp" alt="vaseC1">
+              <div class="thumbGallery__thumbnails">
+                <img class="thumbGallery__small" src="imgs/vaseC1.webp" alt="vaseC1">
+                <img class="thumbGallery__small" src="imgs/vaseC2.jpg" alt="vaseC2">
+                <img class="thumbGallery__small" src="imgs/vaseC3.avif" alt="vaseC3">
+              </div>
+            </div>
+            <h5>vases  collection</h5>
+            <p>This large, rounded stoneware vase combines soft contours with a refined finish, offering a timeless elegance to any space. Crafted to order, each piece is carefully molded by hand, creating slight variations that make every vase truly unique.</p>
+            <button type="button" class="btn collection__card--btn">shop nu</button>
+          </div>
+          <div class="collection__card collection__card--seFlere">
+            <div class="thumbGallery">
+              <img class="thumbGallery__large" src="imgs/sunglassC1.jpg" alt=sunglassC1">
+              <div class="thumbGallery__thumbnails">
+                <img class="thumbGallery__small" src="imgs/sunglassC1.jpg" alt="sunglassC1">
+                <img class="thumbGallery__small" src="imgs/sunglassC2.avif" alt="sunglassC2">
+                <img class="thumbGallery__small" src="imgs/sunglassC3.avif" alt="sunglassC3.avif">
+              </div>
+            </div>
+            <h5>sunglasses  collection</h5>
+            <p>It HAS SELECTED MATERIALS OF THE HIGHEST QUALITY TO CREATE YOUR SUNGLASSES.</p>
+            <button type="button" class="btn collection__card--btn">shop nu</button>
+          </div>
+          <div class="collection__card collection__card--seFlere">
+            <div class="thumbGallery">
+              <img class="thumbGallery__large" src="imgs/moment.png" alt="moment">
+              <div class="thumbGallery__thumbnails">
+                <img class="thumbGallery__small" src="imgs/moment.png" alt="moment">
+                <img class="thumbGallery__small" src="imgs/moment2.jpg" alt="moment">
+                <img class="thumbGallery__small" src="imgs/moment3.png" alt="moment">
+              </div>
+            </div>
+            <h5>moment collection</h5>
+            <p>Bær et personligt minde om de mennesker, passioner, oplevelser og drømme, der betyder noget særligt for dig.</p>
+            <button type="button" class="btn collection__card--btn">shop nu</button>
+          </div>          
+        </div>
+        <button type="button" class="btn flere--btn">Vis flere <span class="flere--span">
+          <i class="fa-solid fa-chevron-right"></i>
+          <i class="fa-solid fa-chevron-right"></i>
+          <i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </button>
+      </section> -->
+
+      <!-- <div class="new--width gameofthrones">
+        <div class="game__img">
+          <img src="imgs/Gameofthrones.webp" alt="Game of thrones">
+        </div>
+        <div class="game__text">
+          <img src="imgs/gamelogo.png" alt="game of thrones logo">
+          <h5>Vælg mellem elegante og eksklusive smykker i højeste kvalitet.</h5>
+          <p>Alle smykkerne i Deluxe kollektionen er lavet i guld og sat med smukke diamanter, brillanter og ædelsten. Smykkerne er perfekte til at markere de helt store begivenheder i livet, og du finder nogle helt unikke varianter, som du kun finder hos os.</p>
+          <button type="button" class="btn game--btn">butik got</button>
+        </div>
+      </div> -->
+    </main>
+
+    <footer class="footer">
+      <div class="new--width">
+        <a href="index.html" class="footer__logo">
+          <img src="imgs/logo.svg" alt="logo">
+          <span class="logo--text">
+            Best Gift
+          </span>
+        </a>
+        <div class="footer__info">
+          <div class="info--card">
+            <p class="info--header">kundeservice</p>
+            <div class="kunde">
+              <ol>
+                <li><a href="">Kontakt os</a></li>
+                <li><a href="">Levering</a></li>
+                <li><a href="">Retur & ombyt</a></li>
+                <li><a href="">Køb nu, betal senere</a></li>
+              </ol>
+            </div>
+          </div>
+          <div class="info--card">
+            <p class="info--header">brug for hjælp?</p>
+            <div class="kunde">
+              <ol>
+                <li><a href="" class="bold--text">+45 00000000</a></li>
+                <li><a href="">Telefon åben 9-17 alle hverdage</a></li>
+              </ol>
+            </div>
+          </div>
+          <div class="info--card">
+            <p class="info--header">information</p>
+            <div class="kunde">
+              <ol>
+                <li><a href="">Find butik & åbningstider</a></li>
+                <li><a href="">Job hos Best Gift</a></li>
+                <li><a href="">Om os</a></li>
+                <li><a href="">Persondata</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="new--width copyright">
+          <p>Copyright © 2024, Best gift A/S |  Designed by <span class="bold--text">Satyobroto Talukder</span>.</p>
+          <ol class="footer--socialmedia">
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+          </ol>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

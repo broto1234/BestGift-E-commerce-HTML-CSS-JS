@@ -1,0 +1,25 @@
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  src: url("/font/Nunito-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  src: url("/font/Nunito-Italic-VariableFont_wght.ttf");
+}
+
+:root {
+
+  --font-display: clamp(1.802rem, 1.3469rem + 2.754vw, 3.1108rem);
+  
+  --clr-logoText: #F362FB;
+  --clr-logoLine: #FFCAD4;
+  --clr-heroText: #F756D7;
+  --clr-bgBlack: #232A30;
+  --clr-white: #FFFFFF;
+  --clr-grey: #A69F9F;
+  --clr-info: #FF8E82;
+}

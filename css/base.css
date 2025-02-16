@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--clr-bgBlack);
+  transition: all 0.3s ease-in-out;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  padding: 0.8rem 2.2rem;
+  /* border: none; */
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.bold--text {
+  font-weight: bold;
+}
+
+.btn--bg-black {
+  color: var(--clr-white);
+  background-color: var(--clr-bgBlack);
+}
+
+.btn:hover {
+  /* font-size: 2rem; */
+  color: var(--clr-bgBlack);
+  background-color: var(--clr-white);
+  border: 0.1rem solid var(--clr-grey);
+}

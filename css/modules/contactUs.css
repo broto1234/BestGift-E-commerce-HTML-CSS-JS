@@ -1,0 +1,86 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 4rem;
+}
+
+.contact--header {
+  font-style: italic;
+  font-weight: 800;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: calc(100vw - 3rem);
+  max-width: 40rem;
+  margin: 2rem auto 0;
+  padding: 1.25rem;
+}
+
+.form--group span {
+  color: red;
+}
+
+.form--group {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  position: relative;
+}
+
+.form--group textarea {
+  resize: none;
+  height: 4rem;
+}
+
+.w-full {
+  grid-column: 1 / -1;
+}
+
+.form--btn {
+  text-align: center;
+}
+
+.contact--btn {
+  margin-block-start: 1.5rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background-color: var(--clr-bgBlack);
+  border-radius: 0;
+}
+
+.contactSpørgsmål {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+.line--up {
+  margin-block-start: -0.8rem;
+}
+
+.error {
+  color: rgba(250, 66, 66, 0.727);
+  width: 15rem;
+  position: absolute;
+  top: 1.3rem;
+  left: 0.5rem;
+}
+
+@media screen and (max-width: 778px) {
+  
+  form {
+    display: block;
+  }
+  .form--group {
+    display: block;
+    margin-block: 0.5rem;
+    width: 100%;
+  }
+  .spørgsmål {
+    display: none;
+  }
+}

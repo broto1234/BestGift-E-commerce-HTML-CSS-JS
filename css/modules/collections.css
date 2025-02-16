@@ -1,0 +1,186 @@
+.collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 5rem;
+}
+
+.collec--header {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.collec--para {
+  width: 60ch;
+  font-weight: 600;
+  margin-block: 0.6rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.collection__cards, .collection__cards--show {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-block: 2rem;
+  justify-content: center;
+}
+
+.collection__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--clr-logoLine);
+  padding-block-end: 1rem;
+}
+
+.collection__card img {
+  height: 14rem;
+}
+
+.collection__card h5{
+  margin-block: 0.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.collection__card p {
+ font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.collection__card--btn {
+  width: 9rem;
+  margin-inline: auto;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background-color: var(--clr-bgBlack);
+  border-radius: 0;
+}
+
+.flere--btn {
+  width: 20rem;
+  font-size: 1.4rem;
+  border: 0.1rem solid black;
+  border-radius: 0;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 2rem;
+  
+}
+
+.flere--span {
+  display: flex;
+  justify-content: space-between;
+  width: 3rem;
+  margin-inline-start: 0.7rem;
+  transition: width 1s ease-in-out;
+}
+
+.flere--btn:hover .flere--span {
+  width: 6rem;
+}
+
+.gameofthrones {
+  margin-block: 6rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 5fr 1fr;
+}
+
+.game__img {
+  grid-column: 1/5;
+  grid-row: 1/4;
+}
+
+.game__text {
+  grid-column: 4/6;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: var(--clr-white);
+  background-color: black;
+}
+
+.game__text img {
+  width: 5rem;
+  height: auto;
+}
+
+.game__text h5 {
+  font-size: 1rem;
+  margin-block: 0.5rem;
+}
+
+.game__text p {
+  font-size: 1rem;
+  color: var(--clr-grey);
+}
+
+.game--btn {
+  margin-block-start: 1rem;
+  border-radius: 0;
+  color: var(--clr-bgBlack);
+  background-color: var(--clr-white);
+  text-transform: uppercase;
+}
+
+.collection__card--seFlere {
+  display: none;
+}
+
+/* .collection__card--seFlere {
+  display: none;
+} */
+
+
+@media screen and (max-width: 778px) {
+
+  .collections {
+    display: block;
+    margin-block: 1rem;
+  }
+  .collec--header {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .collec--para {
+    display: none;
+  }
+  .collection__cards {
+    display: block;
+  }
+  .collection__card {
+    margin-block: 1.2rem;
+  }
+  .collection__card img {
+    height: auto;
+  }
+  .collection__card--btn {
+    font-size: 0.8rem;
+  }
+  .flere--btn {
+    width: 12rem;
+    margin-inline: auto;
+    font-size: 0.8rem;
+  }
+  .gameofthrones {
+    display: block;
+    margin-block: 3rem;
+    /* text-align: center; */
+  }
+  .game__img {
+    display: none;
+  }
+  .game__text {
+    padding: 1rem;
+  }
+}

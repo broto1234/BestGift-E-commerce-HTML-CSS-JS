@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Best Gift</title>
+  <script src="/js/formvalidation.js" defer></script>
+  <script src="/js/cart.js" defer></script>
+</head>
+<body>  
+  <div class="wrapper">
+    <header>
+      <div class="header new--width">
+        <a href="index.html" class="header__logo">
+          <img src="imgs/logo.svg" alt="logo">
+          <span class="logo--text">
+            Best Gift
+          </span>
+        </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="collections.html">
+                Collections
+              </a>
+            </li>
+            <li>
+              <a href="aboutus.html">
+                About Us
+              </a>
+            </li>
+            <li class="nav--underline">
+              <a href="contactus.html">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+          <div class="header__cart">
+            <img src="imgs/shoppingCart.png" alt="shopping Cart">
+            <span class="cartAdd cart--list"></span>
+          </div>
+          <dialog class="cart__modal">
+            <h2>Total Items:</h2>
+            <div class="cart__value">
+              <p class="cartValue"></p>
+              <span class="cartValueClose cart__value--Close">&times;</span>
+            </div>
+            <button class="cart__closeBtn">&times;</button>
+          </dialog>
+        </nav>
+      </div>
+    </header>
+
+    <main class="new--width">
+      <section class="contact">
+        <h2 class="contact--header">Kontakt Os</h2>
+        <p>Skriv til os og vi vil vende tilbage hurtigst muligt.</p>
+
+        <form action="/tak.html" method="post" novalidate onsubmit="validateForm(event)">
+          <div class="form--group">
+            <label for="name">Navn <span>*</span></label>
+            <input type="text" name="name" id="name">
+            <span class="error"></span>
+          </div>
+          <div class="form--group">
+            <label for="postnr">Post Nr. <span>*</span></label>
+            <input type="text" name="postnr" id="postnr">  
+            <span class="error"></span>          
+          </div>
+          <div class="form--group email">
+            <label for="email">E-Mail <span>*</span></label>
+            <input type="text" name="email" id="email">   
+            <span class="error"></span>       
+          </div>
+          <div class="form--group telefon">
+            <label for="telefon">Telefon Nr. <span>*</span></label>
+            <input type="number" name="telefon" id="telefon">
+            <span class="error"></span>
+          </div>
+          <div class="form--group w-full message">
+            <label for="message">Hvad kan vi hjælpe med? <span>*</span></label>
+            <textarea name="message" id="message" rows="6"></textarea>
+            <span class="error"></span>
+          </div>
+          <div class="w-full form--btn">
+            <button type="submit" class="btn contact--btn">indsend</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="contactSpørgsmål">
+        <p class="spørgsmål">Har du nogen spørgsmål vedrørende vores produkter, din ordre eller noget helt tredje, er du er altid velkommen til at kontakte vores kundeservice.</p>
+        <p>Vi glæder os til at høre fra dig.</p>
+        <p>Ring til os på:</p>
+        <p class="bold--text line--up">+45 0000 00 00</p>
+        <p class="line--up">Alle hverdage kl. 9.00-17.00</p>
+        <p>Skriv til os på:</p>
+        <p class="bold--text line--up">bestGift@shop.dk</p>
+        <p class="line--up">Vi besvarer din henvendelse så hurtigt som muligt.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="new--width">
+        <a href="index.html" class="footer__logo">
+          <img src="imgs/logo.svg" alt="logo">
+          <span class="logo--text">
+            Best Gift
+          </span>
+        </a>
+        <div class="footer__info">
+          <div class="info--card">
+            <p class="info--header">kundeservice</p>
+            <div class="kunde">
+              <ol>
+                <li><a href="">Kontakt os</a></li>
+                <li><a href="">Levering</a></li>
+                <li><a href="">Retur & ombyt</a></li>
+                <li><a href="">Køb nu, betal senere</a></li>
+              </ol>
+            </div>
+          </div>
+          <div class="info--card">
+            <p class="info--header">brug for hjælp?</p>
+            <div class="kunde">
+              <ol>
+                <li><a href="" class="bold--text">+45 00000000</a></li>
+                <li><a href="">Telefon åben 9-17 alle hverdage</a></li>
+                <!-- <li><a href="">Retur & ombyt</a></li>
+                <li><a href="">Køb nu, betal senere</a></li> -->
+              </ol>
+            </div>
+          </div>
+          <div class="info--card">
+            <p class="info--header">information</p>
+            <div class="kunde">
+              <ol>
+                <li><a href="">Find butik & åbningstider</a></li>
+                <li><a href="">Job hos Best Gift</a></li>
+                <li><a href="">Om os</a></li>
+                <li><a href="">Persondata</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="new--width copyright">
+          <p>Copyright © 2024, Best gift A/S |  Designed by <span class="bold--text">Satyobroto Talukder</span>.</p>
+          <ol class="footer--socialmedia">
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+          </ol>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+</body>
+</html>

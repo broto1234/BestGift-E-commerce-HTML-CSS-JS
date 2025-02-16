@@ -1,0 +1,66 @@
+.nyheder {
+  margin-block: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.nyheder__text {
+  max-width: 28rem;
+}
+.nyheder h3 {
+  margin-block-end: 0.5rem;
+}
+
+.nyheder--velkom {
+  font-weight: 800;
+}
+
+.nyheder__email {
+  max-width: 35rem;
+  margin-inline: auto;
+  background-color: var(--clr-grey);
+  display: flex;
+  align-items: center;
+}
+
+input[type="email"] {
+  font-size: 1rem;
+  padding: 1.2rem;
+  border: 0.01rem solid var(--clr-grey);
+  /* outline: none; */
+}
+
+input[type="email"]::placeholder {
+  color: var(--clr-bgBlack);  
+}
+
+.nyheder--tilmed {
+  padding-inline: 1.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 778px) {
+
+  .nyheder {
+    display: block;
+    margin-block: 3rem;
+  }
+  .nyheder h3 {
+    font-size: 0.6rem;
+  }
+  .nyheder p {
+    font-size: 0.5rem;
+  }
+  input[type="email"] {
+    font-size: 0.5rem;
+    padding: 0.2rem;
+  }
+  .nyheder--tilmed {
+    padding-inline: 0.2rem;
+    font-size: 0.5rem;
+  }
+
+}

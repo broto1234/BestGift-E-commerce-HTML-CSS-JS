@@ -1,0 +1,52 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "image": "makeup.jpg",
+            "title": "NYX PROFESSIONAL MAKEUP",
+            "subtitle": "Ultimate Shadow Palette",
+            "text": "This eyeshadow palette features 40   stunning creamy eyeshadows in matte and metallic finishes that instantly conjure up a sumptuous nirvana of super-saturated electric greens and subtle pastels coexisting in a peaceful state of colorfully coordinated chaos. Whatever your version of paradise looks like, this eyeshadow palette is as close to perfection as you can get.",
+            "price": "Makeup Set 899 kr"
+        },
+        {
+            "id": 2,
+            "image": "flowerbouquet.jpg",
+            "title": "flower bouquet",
+            "subtitle": "Handmade with focus on details and aesthetics",
+            "text": "The Flower Bouquet is the perfect gift to express your love in an elegant and memorable way. This beautiful box is filled with the season's most romantic flowers in warm, gentle shades that symbolize love and devotion. The box is ideal as a thoughtful gesture for your partner, a special friend or someone who deserves a little extra attention this Valentine's Day. Its exclusive and stylish design makes it a gift that will truly impress and spread joy. Each box is carefully handcrafted by Bloomit's experienced florists, ensuring that each decoration is unique and created with love. The combination of the carefully selected flowers and the elegant box makes this Valentine's gift something truly special.",
+            "price": "Flower bouquet 299 kr"
+        },
+        {
+            "id": 3,
+            "image": "perfume.jpg",
+            "title": "EAU DE PERFUME INTENSE",
+            "subtitle": "A woody amber note with a powerful character",
+            "text": "This Eau de Parfum Intense spray ensures a rich and gentle application on the skin or on the inside of clothing. Apply it every day, before your appointments or every evening on the wrists, behind the ears and behind the knees to achieve a more intense sillage. You can intensify the sillage by using the entire bath and body range.",
+            "price": "Perfume 1489 kr"
+        },
+        {
+            "id": 4,
+            "image": "blanket.webp",
+            "title": "Cotton Weighted Blanket",
+            "subtitle": "Made of 100% cotton. Your Napper should be about 10% of your body weight.",
+            "text": "This buttery soft and breathable organic cotton weighted blanket is ideal for all seasons. Weighted blankets have been medically proven to aid naturally deeper sleep cycles. The weight on your body stimulates the production of serotonin (the happy hormone), reduces cortisol (the stress hormone), and increases melatonin, which helps you fall (and stay) asleep. Your Napper should be roughly 10% of your body weight (e.g. 70kg body weight = 7kg Napper).",
+            "price": "Softest blanket 499 kr"
+        },
+        {
+            "id": 5,
+            "image": "shoes.jpg",
+            "title": "Low Block Barely There Heels",
+            "subtitle": "We'll make sure your shoes keep you one stylish step ahead of the crowd",
+            "text": "Whether you're keeping it simple in sliders, living the high life in heels or joining the fash pack in flatforms, you'll be heading to shoe heaven with our fashion-forward footwear collection. Boots are your day-to-night bestfriend, giving a floral dress that tough twist - add a biker jacket for even more attitude. Find your summer feet in jelly sandals and enjoy balmy nights in block heels. Upper: synthetic suede Lining: synthetic material Outer: synthetic materials.",
+            "price": "Party shoes 1299 kr"
+        },
+        {
+            "id": 6,
+            "image": "GiftsetsBox.jpg",
+            "title": "Gift Set",
+            "subtitle": "This exclusive gift set specially selected by BestGift Jewellery.",
+            "text": "The jewelry should be treated with care. We recommend that you remove your jewelry before any activity that may cause exposure to moisture or friction (e.g. washing hands, cleaning and showering) to preserve the jewelry and extend its lifespan.",
+            "price": "Gavesæt 718 kr"
+        }
+    ]
+}

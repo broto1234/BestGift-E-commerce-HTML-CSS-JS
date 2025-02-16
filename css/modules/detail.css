@@ -1,0 +1,42 @@
+.detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-block-start: 5rem;
+  margin-inline: 2rem;
+}
+
+.detail__left {
+  padding: 2rem;
+}
+
+.detail__img {
+  height: 25rem;
+}
+
+.detail__right {
+  margin-block-start: 0.5rem;
+  margin-inline: 1rem;
+  text-align: center;  
+}
+
+.detail__title {
+  font-size: 0.8rem;
+}
+
+.detail__subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-block: 0.5rem;
+}
+
+.detail__text {
+  text-align: start;
+}
+
+@media screen and (max-width: 778px) {
+  .detail {
+    margin: 1rem;
+    display: block;
+  }
+}

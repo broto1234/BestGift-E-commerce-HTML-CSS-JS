@@ -1,0 +1,62 @@
+.about {
+  margin-block: 2rem;
+  background-color: var(--clr-logoLine);
+}
+
+.about__text {
+  padding: 3.5rem;
+  text-transform: uppercase;
+  box-shadow: 0 0 7px 7px var(--clr-logoLine);
+}
+
+.about--para {
+  margin-block: 1rem;
+  font-size: 1.3rem;
+}
+
+.aboutSortiment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin-block: 8rem;
+  /* height: 35rem; */
+}
+
+.aboutSortiment__para p {
+  margin-block-start: 0.5rem;
+  font-size: 0.8rem;
+  text-wrap: balance;
+}
+
+.about--image {
+  height: 26rem;
+}
+
+@media screen and (max-width: 778px) {
+
+  .about__text {
+    padding: 0.7rem;
+  }
+  .about--para {
+    font-size: 0.8rem;
+  }
+  .aboutSortiment{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-block: 4rem 2rem;
+  }
+  .aboutSortiment__para {
+    text-align: center;
+  }
+  .aboutSortiment__para h2 {
+    font-size: 0.8rem;
+  }
+  .aboutSortiment__para p {
+    font-size: 0.5rem;
+  }
+  .about--image {
+    height: 12rem;
+  }
+}

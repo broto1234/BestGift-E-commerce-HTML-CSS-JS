@@ -1,0 +1,73 @@
+{
+    "collections" : {
+
+      "headline": "vores kollektioner",
+
+      "text": "Gå på opdagelse i vores forskellige smykkekollektioner, og oplev et univers af muligheder, hvor du kan skabe et look, der fortæller noget om dig.",
+
+      "items": [
+
+        {
+            "imgOne": "watchC1.png",
+            "imgTwo": "watchC2.jpg",
+            "imgThree": "watchC3.jpg",
+            "title": "watches  collection",
+            "text": "A watch is not only a functional accessory but also a stylish one, complementing your wardrobe and reflecting your personality.",
+            "btntext": "shop nu"
+        },
+        {
+            "imgOne": "perfumeC1.jpg",
+            "imgTwo": "perfumec2.webp",
+            "imgThree": "perfumec3.jpg",
+            "title": "perfume collection",
+            "text": "It is a fragrance that, in its extrait formulation, shows all its complexity and sweetness, sensuality, and lust, like a magical realm of abundance.",
+            "btntext": "shop nu"
+        },
+        {
+            "imgOne": "bagcollection.png",
+            "imgTwo": "bagC2.avif",
+            "imgThree": "bagC3.avif",
+            "title": "bags  collection",
+            "text": "A fibric mesh is included. In the bag there is also leather case. The  bag  can be used both as a handbag with the shop strap and with long strap.",
+            "btntext": "shop nu"
+        }
+      ],  
+
+      "showMoreItems": [
+
+        {
+            "imgOne": "vaseC1.webp",
+            "imgTwo": "vaseC2.jpg",
+            "imgThree": "vaseC3.avif",
+            "title": "vases  collection",
+            "text": "This large, rounded stoneware vase combines soft contours with a refined finish, offering a timeless elegance to any space. Crafted to order, each piece is carefully molded by hand, creating slight variations that make every vase truly unique.",
+            "btntext": "shop nu"
+        },
+        {
+            "imgOne": "sunglassC1.jpg",
+            "imgTwo": "sunglassC2.avif",
+            "imgThree": "sunglassC3.avif",
+            "title": "sunglasses  collection",
+            "text": "It has selected materials of the highest quality to create your sunglasses.",
+            "btntext": "shop nu"
+        },
+        {
+            "imgOne": "moment.png",
+            "imgTwo": "moment2.jpg",
+            "imgThree": "moment3.png",
+            "title": "moment collection",
+            "text": "Bær et personligt minde om de mennesker, passioner, oplevelser og drømme, der betyder noget særligt for dig.",
+            "btntext": "shop nu"
+        }
+      ],
+
+      "gameofthrones": {
+
+        "imgGame": "Gameofthrones.webp",
+        "imgGamelogo": "gamelogo.png",
+        "header": "Vælg mellem elegante og eksklusive smykker i højeste kvalitet.",
+        "text": "Alle smykkerne i Deluxe kollektionen er lavet i guld og sat med smukke diamanter, brillanter og ædelsten. Smykkerne er perfekte til at markere de helt store begivenheder i livet, og du finder nogle helt unikke varianter, som du kun finder hos os.",
+        "btnText": "butik got"
+      }
+    }
+}

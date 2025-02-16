@@ -1,0 +1,131 @@
+.popular {
+  margin-block: 5rem;
+  /* margin-block-end: 14rem; */
+  /* position: relative; */
+}
+
+.popular__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chevron {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.chevron:hover {
+  color: #f86262;
+}
+
+.popular__text {
+  font-size: var(--font-display);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.popular__cardlists {
+  margin-block: 3rem;
+  position: relative;
+  height: 80vh;
+}
+
+.popular__card {
+  width: 45%;
+  margin-inline: auto;
+  height: 30rem;
+  position: absolute;
+  inset: 0;
+  display: none;
+  /* opacity: 0; */
+}
+
+.popular__card--visible {
+  display: block;
+  /* opacity: 1; */
+}
+
+.popular__card img {
+  height: 20rem;
+  cursor: zoom-in;
+}
+
+.popular__cardText {
+  text-align: center;
+}
+.popular--paraOne {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.popular--paraTwo {
+  margin-block-end: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.popular--btn {  
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background-color: var(--clr-bgBlack);
+}
+
+
+
+/* --------- Modal------ */
+
+.lightbox__modal {
+  overflow: hidden;
+  margin: auto;
+  border: noen;
+  text-align: center;
+}
+
+.lightbox__modal:focus {
+  outline: none;
+}
+
+.lightbox__modal::backdrop {
+  background-color: hsl(0 0% 0% / 70%);
+}
+
+.lightbox__closeBtn {
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  top: 1rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+.lightbox__closeBtn:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 778px) {
+
+  .popular {
+    margin-block: 1rem;
+  }
+  .chevron {
+    font-size: 1rem;
+  }
+  .popular__text {
+    font-size: 1.2rem;
+  }
+
+  .popular__cardlists {
+    margin-block: 1rem;
+  }
+
+  .popular__card {
+    width: 100%;
+  }
+
+}
