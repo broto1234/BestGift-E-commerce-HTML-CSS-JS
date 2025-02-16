@@ -22,7 +22,7 @@ Welcome to my project! **Best Gift** is a simple yet elegant website designed to
 
 View the figma file: [figma](https://www.figma.com/design/TlJA4BhDXDr3nl2HQHDKPP/Untitled?node-id=0-1&t=epKjSLOEmAQPF3na-1)
 
-Check out the live website here: [MyWebsite Live Demo](https://example.com)
+Check out the live website here: [vercel](https://best-gift-e-commerce-html-css-js.vercel.app/)
 
 Check out the Screenshot here: 
 
